@@ -2,7 +2,7 @@ name: "hellow world"
 on: push
 jobs:
 my-job:
-runs on: : uduntu-latest
+runs on: : ubuntu-latest
 steps:
 -name: my-step
 run: echo "my world"
